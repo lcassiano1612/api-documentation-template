@@ -6,9 +6,11 @@ Eu me inspirei/traduzi neste gist https://gist.github.com/iros/3426278#file-exam
 
 # Nome da API
 
-### <Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple).>
+### Informações adicionais sobre sua chamada de API.
 
-URL
+###### Exemplos: 
+
+# URL
 
 <The URL Structure (path only, no root url)>
 
