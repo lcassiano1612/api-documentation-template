@@ -1,11 +1,12 @@
-# api-documentation-template
+# Modelo de documentação para API
 
 Ola galera, segue aqui um modelo para documentar uma api através do github.
 
 Eu me inspirei/traduzi neste gist https://gist.github.com/iros/3426278#file-example-md.
 
-Title
-<Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple).>
+# Nome da API
+
+### <Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple).>
 
 URL
 
