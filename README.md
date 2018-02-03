@@ -1,20 +1,38 @@
-# Modelo de documentação para API
+# Modelo de documentação para API no Github
 
-Ola galera, segue aqui um modelo para documentar uma API através do github.
+Ola galera, segue aqui um modelo para documentar uma API através do github caso vocês precisem.
 
-Eu me inspirei/traduzi neste gist https://gist.github.com/iros/3426278#file-example-md.
+Eu me inspirei/traduzi neste 
+[gist](https://gist.github.com/iros/3426278#file-example-md) do [IROS](https://gist.github.com/iros).
 
-# Nome da chamada API
-
-### Informações adicionais sobre sua chamada de API.
-
-###### Exemplos: 
-
+## Nome da chamada API  
 * Buscar usuario
 * Autenticar usuario
 * Buscar relatorio
+## Informações adicionais sobre sua chamada de API.
+Retorna um JSON com informações da busca 
 
-# URL
+    * URL: /users/:id
+    * Metodo: GET
+    * URL Parametros:
+        id = [inteiro]
+    * Parametros:
+        id: "nome"
+    * Resposta de sucesso(200): { id: 12, name: "Lucas de Oliveira" }
+    * Resposta de erro(404): { error: "Não encontrado" }
+    * Resposta de erro(401): { error: "Você não está autorizado a fazer esse pedido." }
+    *Modelo da chamada: 
+    ```javascript
+        $.ajax({
+            url: "/users/1",
+            dataType: "json",
+            type : "GET",
+            success : function(r) {
+                console.log(r);
+            }
+        });
+    ```
+<!--# URL
 
 <The URL Structure (path only, no root url)>
 
