@@ -1,14 +1,18 @@
 # Modelo de documentação para API
 
-Ola galera, segue aqui um modelo para documentar uma api através do github.
+Ola galera, segue aqui um modelo para documentar uma API através do github.
 
 Eu me inspirei/traduzi neste gist https://gist.github.com/iros/3426278#file-example-md.
 
-# Nome da API
+# Nome da chamada API
 
 ### Informações adicionais sobre sua chamada de API.
 
 ###### Exemplos: 
+
+* Buscar usuario
+* Autenticar usuario
+* Buscar relatorio
 
 # URL
 
